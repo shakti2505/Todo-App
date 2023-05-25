@@ -1,0 +1,66 @@
+body{
+  background-color: #2b2b29
+}
+
+
+.main-container{
+  display:flex;
+  justify-content: center;
+  margin-top: 200px;
+  
+  
+}
+
+.input-box-todo{
+  display: inline;
+  margin-bottom: 50px;
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: xx-large;
+}
+.add-btn{
+  display: inline;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 2rem;
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: aqua;
+
+  
+}
+.listitem{
+  display:block;
+  width: auto;
+  height: auto;
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+
+
+
+  
+}
+.icons{
+  display: inline;
+  float:right;
+  margin-right: 10px;
+  color: red;
+  cursor:pointer;
+  
+  
+  
+}
+.app-heading{
+  display: flex;  
+  justify-content: center;
+  font-weight: bolder;
+  color: orange;
+}
